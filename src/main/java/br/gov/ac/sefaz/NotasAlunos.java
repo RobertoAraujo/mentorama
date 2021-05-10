@@ -16,9 +16,10 @@ public class NotasAlunos {
 		double total = 0;
 		for (int i=0; i< 3; i++ ) {
 			total +=alunoNtas[i];
-			//System.out.println(Arrays.toString(alunoNtas));
 		}
+		//System.out.println(Arrays.toString(alunoNtas));
 		System.out.println(" ");
+		// aqui eu faço a media do aluno 
 		System.out.println(total / 3);
 	}
 	
